@@ -1,0 +1,100 @@
+body {
+    background-color: #C4C4C4;
+}
+
+.induk {
+    padding: 20px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+.konten {
+    margin: 50px 400px 0px 400px;
+}
+
+.konten2 {
+    margin: 30px 400px 0px 400px;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.tabel1 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 190px;
+    text-align: center;
+}
+
+.download {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+
+.teksdownload {
+    font-size: 18px;
+}
+
+.gambar {
+    margin: auto;
+}
+
+.socialmedia {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.linked {
+    width: 55px;
+    height: 55px;
+}
+
+.ig {
+    width: 45px;
+    height: 45px;
+}
+
+.fb {
+    width: 50px;
+    height: 50px;
+}
+
+.x {
+    width: 75px;
+    height: 55px;
+}
+
+.profile {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.8);
+    border: 1px inset grey;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.poto {
+    width: 400px;
+    display: inline;
+}
