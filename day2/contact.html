@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/contact.css" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <img src="assets/img/dumbways.png" alt="Dumbways Logo" />
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <button><a href="contact.html">Contact</a></button>
+      </div>
+    </nav>
+
+    <!-- content -->
+
+    <div class="base">
+      <h1>GET IN TOUCH</h1>
+      <div class="submitform">
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" />
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject">
+          <option value="none">-</option>
+          <option value="frontend">Frontend</option>
+          <option value="backend">Backend</option>
+          <option value="fullstack">Fullstack</option>
+          <option value="data-scientice">Data Scientice</option>
+          <option value="network-security">Network Security</option>
+        </select>
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage" cols="50" rows="10"></textarea>
+        <div class="submitButtonWrap">
+          <button class="submitbutton">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
