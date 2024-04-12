@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #86004C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.navbar .navbar-left a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.navbar .navbar-left :hover {
+    color: orangered;
+}
+
+.navbar .navbar-left img {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.navbar-left ul{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar-left ul li {
+    list-style: none;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.navbar-right button {
+    width: 110px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    transition: all .5s ease;
+    border-radius: 30px; 
+    border: none;   
+}
+
+.navbar-right button:hover {
+    background-color: orangered;
+}
+
+.navbar-right button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container1 {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.content1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.content1 h1 {
+    margin-bottom: 30px;
+}
+
+.container2 {
+    background-color: #CDCDCD;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.container2 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.content2 {
+    display: flex;
+}
+
+.projectNameBox input, .dateBox input, .descriptionBox textarea  {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.techBox {
+    display: flex;
+    width: 100%; 
+}
+
+.check {
+    margin: 30px;
+    width: 150px;
+}
+
+.check1 {
+    width: 45%;
+}
+
+.check2 {
+    width: 45%;
+}
+
+.uploadBox {
+    margin: 0 auto 50px auto;
+}
+
+.uploadBox input {
+    width: 100%;
+}
+
+.submitBox {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.submitBox button {
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.myProject {
+    background-color: white;
+    width: 25%;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.myProject h3, .myProject h5, .myProject p {
+    font-size: smaller;
+    color: black;
+}
+
+.myProject h3 {
+    margin-top: 15px;
+}
+
+.myProject img {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.mediaButton {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.mediaButton td a{
+    color: black;
+}
+
+.delEditButton {
+    margin-top: 60px;
+    display: flex;
+    justify-content: end;
+}
+
+.delEditButton button {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+}
